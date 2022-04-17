@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible"
+        content="IE-edge">
+
+        <title>Reservation Form</title>
+        <meta name="viewport" content="width=Ddevice-width, initial-scale=1">
+        <link rel="stylesheet" href="design.css">
+        <link rel="icon" type="image/x-icon" href="favicon.ico"sizes="16x16 32x32" type="image/ico">
+        <!link rel="manifest" href="/site.webmanifest">
+    </head>
+    <body>
+    <section class="banner">
+        <h1 id="heading">BOOK YOUR TABLE NOW!</h1>
+        <div class="card-container">
+            <div class="card-img">
+                <img href="food_image.jpg">
+            </div>
+            <div class="card-content">
+                <h3> Reservation</h3>
+                <form action= "mailto: teesha.shubha@gmail.com" method= "post" enctype= "text/plain" onSubmit="Success. Booking confirmed.">
+                    <div class="form-row">
+                        <select name="days">
+                            <option value="select_day">Select Day</option>
+                            <option value="Sunday">Sunday</option>
+                            <option value="Monday">Monday</option>
+                            <option value="Tuesday">Tuesday</option>
+                            <option value="Wednesday">Wednesday</option>
+                            <option value="Thursday">Thursday</option>
+                            <option value="Friday">Friday</option>
+                            <option value="Saturday">Saturday</option>
+                        </select>
+                        <select name="time">
+                            <option value="select_time">Select time slot</option>
+                            <option value="12:00">12:00</option>
+                            <option value="13:00">13:00</option>
+                            <option value="14:00">14:00</option>
+                            <option value="19:30">19:30</option>
+                            <option value="20:00">20:00</option>
+                            <option value="20:30">20:30</option>
+                            <option value="21:00">21:00</option>
+                            <option value="21:30">21:30</option>
+                            <option value="22:00">22:00</option>
+                            <option value="22:30">22:00</option>
+                        </select>
+                        </div>
+                        <div class = "form-row">
+                            <input type = "text" placeholder="Full Name">
+                            <input type = "text"
+                            placeholder="Phone Number">
+                        </div>
+                        <div class = "form-row">
+                            <input type="number" placeholder="Number of guests" min = "1">
+                            <input type = "submit" value ="BOOK TABLE">
+                        </div>         
+                    </div>
+                    </div>
+                </form>
+            </div>
+            <br><br><br><br><br>
+            <marquee scrollamount="10" scrolldelay=0 id="marq"><strong>NOTE: *Alcohol will not be served on dry days as per Government guidelines.*</strong></marquee>
+        </div>
+    </section>
+    <br><hr>
+    </body>
+    </html>
